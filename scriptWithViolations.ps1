@@ -1,3 +1,5 @@
 Invoke-Something # Custom rule
 
-gci # PSAvoidUsingCmdletAliases is suppressed -> no squigglies
+Invoke-Expression # PSAvoidUsingInvokeExpression is part of the default ruleset
+
+gci # PSAvoidUsingCmdletAliases is suppressed -> no warning
